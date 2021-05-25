@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(216, 212, 205);
+    font-family: 'Roboto', sans-serif;
+}
+
+#main{
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+    top: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+#title{
+    color: rgb(31, 36, 41);
+    text-align: center;
+}
+
+#weight{
+    width: 250px;
+    height: 30px;
+    margin-top: 5%;
+    border: 1px solid rgb(185, 182, 182);
+    border-radius: 5px;
+    background-color: rgb(231, 227, 221);
+    text-align: center;
+    font-size: 18px;
+}
+
+#labelWeight{
+    left: 300px;
+    top: 85px;
+    color: rgb(65, 60, 60);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#height{
+    width: 250px;
+    height:30px;
+    margin-top: 2%;
+    border: 1px solid rgb(185, 182, 182);
+    border-radius: 5px;
+    background-color: rgb(231, 227, 221);
+    text-align: center;
+    font-size: 18px;
+}
+
+#labelHeight{
+    left: 300px;
+    top: 135px;
+    color:rgb(65, 60, 60);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#calculate{
+    width: 100px;
+    height: 50px;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 182, 182);
+    left: 30px;
+    top: 180px;
+    color: rgb(112, 146, 132);
+    font-size: 20px;
+}
+
+#clean{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 182, 182);
+    left: 150px;
+    top: 180px;
+    color: rgb(112, 146, 132);
+    font-size: 20px;
+}
+
+#result{
+    width: 100%;
+    height:30px;
+    border: 1px solid rgb(185, 182, 182);
+    border-radius: 5px;  
+    background-color: rgb(231, 227, 221);
+    font-size: 20px;
+    text-align: center;
+}
+
+#labelResult{
+    color:rgb(65, 60, 60);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#error{
+    width: 100%;
+    color:crimson;
+    font-size: 17px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+#resultDescription{
+    text-align: center;
+    color:rgb(65, 60, 60);
+    font-weight: bold;
+    font-size: 20px;
+}
+

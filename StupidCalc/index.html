@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Calculadora Burra</title>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h1 class="title">Calculadora</h1>
+
+        <section class="input-container">
+        <label for="first-number" class="first-number-label">Primeiro Número:</label>
+        <input type="text" class="first-number">
+        <p class="error-first-input hidden">Não é possível dividir por 0</p>
+        <p class="error-nan-first-input hidden">Somente números são aceitos</p>
+
+        <label for="second-number" class="second-number-label">Segundo Número:</label>
+        <input type="text" class="second-number">
+        <p class="error-second-input hidden">Não é possível dividir por 0</p>
+        <p class="error-nan-second-input hidden">Somente números são aceitos</p>
+        </section>
+
+        
+        <select name="calculate-options" class="calculate-options">
+            <option value="sum">Somar</option>
+            <option value="multiply">Multiplicar</option>
+            <option value="divide">Dividir</option>
+            <option value="subtract">Subtrair</option>
+            <option value="percentage">Porcentagem</option>
+        </select>
+
+        <label for="" class="float-split-label hidden">Quantidade de casas decimais:</label>
+        <input type="number" class="float-split hidden">
+
+        <section class="button-container">
+            <button class="calculate">Calcular</button>
+            <button class="clean">Limpar</button>
+        </section>
+
+        <p class="result-label">O resultado é:</p>
+        <p class="result"></p>
+        <p class="error hidden">Não é possível dividir por 0</p>
+        <p class="error-nan hidden">Somente números são aceitos</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

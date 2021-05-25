@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Conversor de Temperatura</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">Conversor de Temperatura</h1>
+        <section class="buttons">
+        <button class="celcius">Celcius</button>
+        <button class="farenheit">Farenheit</button>
+        <button class="kelvin">Kelvin</button>
+        </section>  
+
+        <form class="celcius-to hidden">
+        <label for="temperature" class="temperatureLabel">Temperatura em Celcius:</label>
+        <input type="number" class="temperature celcius-temperature">
+        
+        <p class="text">Converter para:</p>
+        
+        <section class="to-convert-buttons">
+        <button type="button" class="to-farenheit">Farenheit</button>
+        <button type="button" class="to-kelvin">Kelvin</button>
+        <button type="button" class="clean">Limpar</button>
+        </section>
+    
+        <p class="result-label-celcius hidden">Resultado:</p>
+        <output class="result-celcius"></output>
+
+        </form>
+
+        <form class="farenheit-to hidden">
+            <label for="temperature" class="temperatureLabel">Temperatura em Farenheit:</label>
+            <input type="number" class="temperature farenheit-temperature">
+            
+            <p class="text">Converter para:</p>
+            
+            <section class="to-convert-buttons">
+            <button type="button" class="to-celcius">Celcius</button>
+            <button type="button" class="to-kelvin">Kelvin</button>
+            <button type="button" class="clean">Limpar</button>
+            </section>
+
+        <p class="result-label-farenheit hidden">Resultado:</p>
+        <output class="result-farenheit"></output>
+        
+        </form>
+
+        <form class="kelvin-to hidden">
+            <label for="temperature" class="temperatureLabel">Temperatura em Kelvin:</label>
+            <input type="number" class="temperature kelvin-temperature">
+            
+            <p class="text">Converter para:</p>
+            
+            <section class="to-convert-buttons">
+            <button type="button" class="to-farenheit">Farenheit</button>
+            <button type="button" class="to-celcius">Celcius</button>
+            <button type="button" class="clean">Limpar</button>
+            </section>
+
+            <p class="result-label-kelvin hidden">Resultado:</p>
+            <output class="result-kelvin"></output>
+    
+        </form>
+
+
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

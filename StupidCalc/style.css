@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    text-align: left;
+    margin: 0px 150px 20px 20px;
+    font-size: 20px;
+}
+
+.first-number, .second-number, .float-split{
+    width: 400px;
+    height: 20px;
+    border: 1px solid #7373744b;
+    margin-left: 20px;
+    padding: 4px 11px;
+    font-size: 14px;
+    color: #333;
+}
+
+.first-number-label, .second-number-label, .float-split-label {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.second-number-label{
+    margin-top: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.first-number:hover, .second-number:hover, .float-split:hover {
+    border: 1px solid#1890FF;
+}
+
+.first-number:focus, .second-number:focus, .float-split:focus{
+    border: 1px solid #1890FF;
+    outline: none;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 160px;
+}
+
+.calculate-options {
+    margin-left: 20px;
+    width: 425px;
+    height: 30px;
+    border: 1px solid #7373744b;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 4px 11px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+.calculate-options:hover {
+    border: 1px solid#1890FF;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.calculate, .clean {
+    width: 90px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: #1890FF;
+    padding: 4px 15px;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.result-label {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.result {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.error, .error-nan{
+    margin-left: 20px;
+    font-size: 16px;
+    color: crimson;
+}
+
+.error-first-input, .error-nan-first-input, .error-second-input, .error-nan-second-input{
+    margin-left: 20px;
+    font-size: 14px;
+    color: crimson;
+}
+
+.border-error{
+    border: 1px solid crimson;
+}
+
+.border-error:hover{
+    border: 1px solid crimson;
+}
+
+.hidden {
+    display: none;
+}

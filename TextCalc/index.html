@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Calculadora de Caracteres</title>
+
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">Calculadora de Caracteres</h1>
+
+        <form class="form-text">
+            <label for="text-area" class="text-area-label">Digite seu texto aqui:</label>
+            <textarea name="text-area" class="text-area" cols="30" rows="10"></textarea>
+
+            <select name="select-quantity" class="select-quantity">
+                <option value="words">Palavras</option>
+                <option value="spaces">Espaços</option>
+                <option value="scores">Pontuações</option>
+                <option value="characters">Caracteres</option>
+                <option value="noSpaces">Caracteres sem espaço</option>
+            </select>
+
+            <button type="button" class="button-result">Resultado</button>
+
+            <p class="result"></p>
+
+        </form>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
