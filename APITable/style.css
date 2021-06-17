@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.informations{
+    width: 1000px;
+    height: 150px;
+}
+
+.thName, .thUsername, .thEmail, .thAddress, .thPhone, .thWebsite{
+    width: 200px;
+    height: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.thAddress, .thPhone{
+    margin: 50px;
+}
+
+.username, .email{
+    width: 400px;
+    height: 80px;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.name, .website{
+    width: 600px;
+    height: 80px;
+    color: #1890FF;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.address, .phone{
+    width: 1000px;
+    height: 80px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.buttons{
+    width: 200px;
+    display: flex;
+    margin-left: 800px;
+}
+
+.before, .after{
+    justify-content: right;
+    width: 50px;
+    height: 32px;
+    border-radius: 2px;
+    background-color: #1890FF;
+    padding: 4px 15px;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin: 5px;
+}
