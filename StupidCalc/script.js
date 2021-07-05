@@ -16,7 +16,7 @@ const calculate = document.querySelector('.calculate');
 const floatSplit = document.querySelector('.float-split');
 const floatSplitLabel = document.querySelector('.float-split-label');
 
-selectOperations.addEventListener('click', () => {
+selectOperations.addEventListener('change', () => {
 
     if (selectOperations.value === divide) {
 
